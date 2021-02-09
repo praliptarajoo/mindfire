@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.flex-container {
+	display: flex;
+	background-color: #E0E0E0;
+	justify-content: center;
+}
+
+.flex-container > div {
+	margin: 15px;
+	padding: 20px;
+	width: 300px;
+}
+
+.person > div > img {
+	height: 85px; 
+	width: 85px; 
+	border-radius: 60%; 
+	margin-left: 100px; 
+	margin-top: -10px;
+}
+	
+.person_quote > div {
+	background-color: white;
+}
+
+.icon {
+	text-align: center;
+}
+
+#top_img {
+	width: 270px;
+	height: 150px;
+	margin: -20px;
+}
+
+.box {
+  	width: 180px;
+	height: auto;
+	background-color: black;
+	color: black;
+	padding: 20px;
+	position: relative;
+	margin: 40px;
+}
+
+.box.arrow-top {
+	margin-top: 40px;
+}
+		 
+.box.arrow-top:after {
+	content: " ";
+	position: absolute;
+	right: 160px;
+	top: -25px;
+	border-top: none;
+	border-right: 15px solid transparent;
+	border-left: 15px solid transparent;
+	border-bottom: 15px solid white;
+	background-color: black;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: blue;
+  color: white;
+}
+
+.download{
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: gray;
+}
+
+.viewlink{
+	align-items: center;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+}
+
+
